@@ -1,0 +1,59 @@
+{
+  "name": "bitcore-payment-protocol-innova",
+  "version": "1.2.1",
+  "description": "Payment Protocol (BIP70 and related) support for bitcore-innova",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp",
+    "rootcerts": "node ./update-rootcerts.js"
+  },
+  "contributors": [
+    {
+      "name": "Christopher Jeffrey",
+      "email": "chjeffrey@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Linus Unnebäck",
+      "email": "linus@folkdatorn.se"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    }
+  ],
+  "keywords": [
+    "innova",
+    "bitcore-innova"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innovacoin/bitcore-payment-protocol-innova.git"
+  },
+  "browser": "lib/browser.js",
+  "dependencies": {
+    "asn1.js": "=4.5.2",
+    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
+    "jsrsasign": "=5.0.10",
+    "protobufjs": "=5.0.1"
+  },
+  "devDependencies": {
+    "bitcore-build-innova": "innovacoin/bitcore-build-innova",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.17.3"
+  },
+  "license": "MIT"
+}
