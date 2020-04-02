@@ -1,24 +1,24 @@
-Bitcore-Innova Payment Protocol
+Bitcore-MoneyByte Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-innova.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-innova)
-[![Build Status](https://img.shields.io/travis/innovacoin/bitcore-payment-protocol-innova.svg?branch=master&style=flat-square)](https://travis-ci.org/innovacoin/bitcore-payment-protocol-innova)
-[![Coverage Status](https://img.shields.io/coveralls/innovacoin/bitcore-payment-protocol-innova.svg?style=flat-square)](https://coveralls.io/r/innovacoin/bitcore-payment-protocol-innova)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol)
+[![Build Status](https://img.shields.io/travis/MoneyByte/bitcore-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/MoneyByte/bitcore-payment-protocol)
+[![Coverage Status](https://img.shields.io/coveralls/MoneyByte/bitcore-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/MoneyByte/bitcore-payment-protocol)
 
-A module for [bitcore-innova](https://github.com/innovacoin/bitcore-innova) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore](https://github.com/MoneyByte/bitcore) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib-innova
-npm install bitcore-payment-protocol-innova
+npm install bitcore-lib
+npm install bitcore-payment-protocol
 ```
 
 ```sh
-bower install bitcore-lib-innova
-bower install bitcore-payment-protocol-innova
+bower install bitcore-lib
+bower install bitcore-payment-protocol
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-innova/blob/master/CONTRIBUTING.md) on the main bitcore-innova repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore/blob/master/CONTRIBUTING.md) on the main bitcore repo for information about how to contribute.
 
 ## License
 

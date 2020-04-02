@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-payment-protocol-innova",
+  "name": "bitcore-payment-protocol",
   "version": "1.2.1",
-  "description": "Payment Protocol (BIP70 and related) support for bitcore-innova",
+  "description": "Payment Protocol (BIP70 and related) support for bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -31,25 +31,29 @@
     {
       "name": "Esteban Ordano",
       "email": "eordano@gmail.com"
+    },
+    {
+      "name": "CircuitBreaker",
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "keywords": [
-    "innova",
-    "bitcore-innova"
+    "moneybyte",
+    "bitcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/innovacoin/bitcore-payment-protocol-innova.git"
+    "url": "https://github.com/MoneyByte/bitcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
+    "bitcore-lib": "MoneyByte/bitcore-lib",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-innova": "innovacoin/bitcore-build-innova",
+    "bitcore-build": "MoneyByte/bitcore-build",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

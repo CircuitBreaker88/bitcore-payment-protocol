@@ -4,7 +4,7 @@ var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
 var expect = chai.expect;
-var bitcore = require('bitcore-lib-innova');
+var bitcore = require('bitcore-lib');
 var PrivateKey = bitcore.PrivateKey;
 var PublicKey = bitcore.PublicKey;
 
